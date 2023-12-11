@@ -4,13 +4,22 @@
 
 import {initialize as model_init, update as model_update, go as model_go} from "./model.js"
 import {initialize as visual_init, update as visual_update, go as visual_go} from "./viz.js"
+import * as ct from "./controls.js"
 
-function iterate (display,config) {
-	model_go();
+function iterate (display,controls,config) {
+	let done = false
+	done = model_go();
 	visual_go(display,config);
+	if (done) {
+		controls.select("#button_play").transition(1000).style("opacity",0)
+		controls.select("#button_play").style("pointer-events","none") 
+		ct.go.press(controls);
+	}
 };
 
-function initialize (display,config) {	
+function initialize (display,controls,config) {	
+	controls.select("#button_play").transition(1000).style("opacity",1)
+	controls.select("#button_play").style("pointer-events","all") 
 	model_init();
 	visual_init(display,config); 
 };

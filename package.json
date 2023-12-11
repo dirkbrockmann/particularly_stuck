@@ -1,11 +1,11 @@
 {
-  "name": "@explorables/explorable_template",
-  "title": "Explorable Template",
+  "name": "@explorables/particularly_stuck",
+  "title": "Particularly Stuck",
   "version": "1.0.1",
-  "description": "This is a template for making a complexity explorable. The template can be used to create a new complexity explorable. This template implements the Vicsek Model.",
+  "description": "Diffusion Limited Aggregation - An example for fractal growth patterns in natural systems",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dirkbrockmann/explorable_template.git"
+    "url": "git+https://github.com/dirkbrockmann/particularly_stuck.git"
   },
   "author": "Dirk Brockmann (https://rocs.hu-berlin.de)",
   "main": "./dist/index.js",

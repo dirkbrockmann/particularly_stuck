@@ -32,7 +32,7 @@ const load = function (container_id,config=cfg) {
 
 // initializing the system
 	
-	setup_simulation(display,config)
+	setup_simulation(display,controls,config)
 	
 }
 

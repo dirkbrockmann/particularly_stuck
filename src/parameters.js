@@ -6,28 +6,36 @@
 // utils.js provides methods for extracting various types of parameters for later use
 
 export default {
+		N:300,
 		dt:1,
-		L:100,
-		agentsize: 1.0,
+		L:64,
+		agentsize: 0.5,
 	
 		speed: {
-			range:[0,1],
-			default:0.2
+			range:[0,1.4],
+			default:0.8
 		},
 		wiggle: {
-			range:[0,180],
-			default:50
+			range:[0,1],
+			default:0.8
 		},
-		interaction_radius:{
-			range : [0,5],
-			default : 3
+		attraction:{
+			range : [0,0.5],
+			default : 0.1
 		},
-		number_of_particles : {
-			choices:[50,100,200,400],
-		default:2
+		twist:{
+			range : [0,0.5],
+			default : 0.00
 		},
-		color_by_heading: {
-			default: true
+		twist_mix:{
+			range : [0,1],
+			default : 0
+		},
+		hide_particles: {
+			default: false
+		},
+		orlis_switch: {
+			default: false
 		}
 }
 

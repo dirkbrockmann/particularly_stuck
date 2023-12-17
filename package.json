@@ -1,7 +1,7 @@
 {
   "name": "@explorables/particularly_stuck",
   "title": "Particularly Stuck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "CC-BY-4.0",
   "description": "Diffusion Limited Aggregation - An example for fractal growth patterns in natural systems",
   "repository": {

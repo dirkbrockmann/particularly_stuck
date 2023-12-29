@@ -38,7 +38,7 @@ const sliders = map(va,
 					.range(v.range)
 					.value(v.default)
 					.size(cfg.widgets.slider_size)
-					.fontsize(cfg.widgets.fontsize)
+					//.fontsize(cfg.widgets.fontsize)
 					.girth(cfg.widgets.slider_girth)
 					.knob(cfg.widgets.slider_knob)
 		);
@@ -50,7 +50,7 @@ const toggles = map(bo,
 					.id(v.id).
 					label(v.label).
 					value(v.default)
-					.fontsize(cfg.widgets.fontsize)				
+					//.fontsize(cfg.widgets.fontsize)				
 		);
 
 // making the radio widgets objects, based on the choices
@@ -106,7 +106,6 @@ export default (controls,grid)=>{
 	
 	sliders.forEach((sl,i) => sl.position(sl_pos[i]));
 	
-	console.log(tg_pos)
 	toggles.forEach((tg,i) => tg.position(tg_pos[i]).labelposition(cfg.widgets.toggle_label_pos))
 
 //	radios[0].position(ra_pos)

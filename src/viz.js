@@ -30,8 +30,8 @@ var ctx;
 const draw = ()=>{
 	
 	ctx.clearRect(0, 0, W, H);
-	ctx.strokeStyle = "black";
-	ctx.strokeRect(0, 0, container_cfg.display_size.width, container_cfg.display_size.height);		
+	// ctx.strokeStyle = "black";
+	// ctx.strokeRect(0, 0, container_cfg.display_size.width, container_cfg.display_size.height);
 	
 	const fixed = filter(agents,a=>a.state==0);
 	const free = filter(agents,a=>a.state==1);
@@ -65,22 +65,8 @@ const initialize = (display,config) => {
 	
 	ctx = display.node().getContext('2d');
 	
-		
 	draw()
 	
-		
-	// display.selectAll("#origin").remove();
-	// display.selectAll(".node").remove();
-	//
-	// const origin = display.append("g").attr("id","origin")
-	//
-	// origin.selectAll(".node").data(agents).enter().append("circle")
-	// 	.attr("class","node")
-	// 	.attr("cx",d=>X(d.x))
-	// 	.attr("cy",d=>Y(d.y))
-	// 	.attr("r",X(param.agentsize/2))
-	// 	.style("fill", d => param.color_by_heading.widget.value() ? d3.interpolateSinebow(d.theta/2/Math.PI)  : "black")
-	//
 };
 
 // the go function, this is bundled in simulation.js with the go function of

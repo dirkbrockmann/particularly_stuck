@@ -19,7 +19,7 @@ function iterate (display,controls,config) {
 
 function initialize (display,controls,config) {	
 	controls.select("#button_play").transition(1000).style("opacity",1)
-	controls.select("#button_play").style("pointer-events","all") 
+	controls.select("#button_play").style("pointer-events",null) 
 	model_init();
 	visual_init(display,config); 
 };

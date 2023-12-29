@@ -5,7 +5,7 @@
 
 export default { 
 	widgets:{
-		fontsize:20,
+		//fontsize:20,
 		slider_size: 400,
 		slider_show: true,
 		slider_gap : 1.5,
@@ -24,7 +24,7 @@ export default {
 		delay:0,
 		color_fixed:"darkred",
 		color_free:"rgb(120,120,120)",
-		colormap:"broc",
-		color_period:500
+		colormap:"sinebow",
+		color_period:1000
 	}
 }

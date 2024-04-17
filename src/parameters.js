@@ -13,29 +13,36 @@ export default {
 	
 		speed: {
 			range:[0,1.4],
-			default:0.8
+			default:0.8,
+			label:"Geschwindigkeit"
 		},
 		wiggle: {
 			range:[0,1],
-			default:0.8
+			default:0.8,
+			label:"Diffusion"
 		},
 		attraction:{
 			range : [0,0.5],
-			default : 0.1
+			default : 0.1,
+			label: "Anziehungskraft"
 		},
 		twist:{
 			range : [0,0.5],
-			default : 0.00
+			default : 0.00,
+			label: "Wirbelbewegung"
 		},
 		twist_mix:{
 			range : [0,1],
-			default : 0
+			default : 0,
+			label: "Richtungsgemisch"
 		},
 		hide_particles: {
-			default: false
+			default: false,
+			label: "Teilchen verstecken?"
 		},
 		orlis_switch: {
-			default: false
+			default: false,
+			label: "Bunt?"
 		}
 }
 

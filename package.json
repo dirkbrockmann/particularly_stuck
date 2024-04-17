@@ -1,13 +1,13 @@
 {
-  "name": "@explorables/particularly_stuck",
-  "title": "Particularly Stuck",
-  "subtitle": "Diffusion Limited Aggregation",
+  "name": "particularly_stuck",
+  "title": "Aggromatisch",
+  "subtitle": "Die Entstehung fraktaler Strukturen durch Aggregation",
   "version": "1.1.2",
   "license": "CC-BY-4.0",
-  "description": "This explorable illustrates a model for fractal growth patterns in natural systems based on the aggregation of randomly moving particles.",
+  "description": "Das Explorable zeigt wie diffundierende Teilchen durch wachsende Aggregation an einem Aggregationskeim auf natürliche Art und Weise fraktale Muster entstehen lassen.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dirkbrockmann/particularly_stuck.git"
+    "url": "git+https://github.com/dirkbrockmann/particularly_stuck.git#cosmo"
   },
   "author": "Dirk Brockmann (https://rocs.hu-berlin.de)",
   "main": "./dist/index.js",

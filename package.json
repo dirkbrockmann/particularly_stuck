@@ -2,7 +2,7 @@
   "name": "@explorables/particularly_stuck",
   "title": "Particularly Stuck",
   "subtitle": "Diffusion Limited Aggregation",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "license": "CC-BY-4.0",
   "description": "This explorable illustrates a model for fractal growth patterns in natural systems based on the aggregation of randomly moving particles.",
   "repository": {

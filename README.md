@@ -8,7 +8,7 @@
 
 This explorable illustrates a model for fractal growth patterns in natural systems based on the aggregation of randomly moving particles.
 
-The explorable is part of the [**Complexity Exporables Collection**](https://www.complexity-explorables.org). For more information about the system and its behavior consult the explorable
+The explorable is part of the [**Complexity Explorables Collection**](https://www.complexity-explorables.org). For more information about the system and its behavior consult the explorable
 > [**“Particularly Stuck” - Diffusion Limited Aggregation**](https://www.complexity-explorables.org/explorables/particularly-stuck)
 
 ## Usage & Installation
@@ -24,8 +24,11 @@ If you want to run a local copy without having to rely on the nasty internet, th
 is to install it via `npm`:
 
 ```shell
+mkdir particularly_stuck
+cd particularly_stuck
+npm init -y
 npm install @explorables/particularly_stuck
-open node_modules/@explorables/particularly_stuck/dist/index.html 
+npx http-server node_modules/@explorables/particularly_stuck/dist/ 
 ```
 
 ### Embedding the explorable in your site
